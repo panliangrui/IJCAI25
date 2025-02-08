@@ -100,9 +100,7 @@ train_feature1.py
 
 - Only features of the histopathology image data are provided as the data has a privacy protection agreement.
 ```markdown
-  link：https://pan.baidu.com/s/1pJY1Cv9d-ML7jU09RnGOjg?pwd=rzj7
-  https://zenodo.org/records/11611418
-
+link: https://pan.baidu.com/s/1nm9IJ817UpMmc1h6d0zxPw?pwd=h45j password: h45j 
 ```
 - We provide clinical data on STAS patients, including patient age, gender, stage and protein level expression data.
 Please contact the corresponding author or first author by email.
