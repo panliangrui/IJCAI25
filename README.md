@@ -2,10 +2,10 @@
 
 <div align="center">
   <a href="(https://github.com/panliangrui/IJCAI25/blob/main/STAS.jpg)">
-    <img src="https://github.com/panliangrui/IJCAI25/blob/main/STAS.jpg" width="700" height="400" />
+    <img src="https://github.com/panliangrui/IJCAI25/blob/main/STAS.jpg" width="800" height="400" />
   </a>
 
-  <h1>STAS(micropapillary, solid nests, single cells)</h1>
+  <h1>STAS(solid nests, micropapillary clusters, single cells)</h1>
 
   <p>
   Liangrui Pan et al. is a developer helper.
