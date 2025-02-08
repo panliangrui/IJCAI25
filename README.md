@@ -1,8 +1,8 @@
 
 
 <div align="center">
-  <a href="(https://github.com/panliangrui/STAS/blob/main/SHIYITU.jpg)">
-    <img src="https://github.com/panliangrui/STAS/blob/main/SHIYITU.jpg" width="700" height="400" />
+  <a href="(https://github.com/panliangrui/IJCAI25/blob/main/STAS.jpg)">
+    <img src="https://github.com/panliangrui/IJCAI25/blob/main/STAS.jpg" width="700" height="400" />
   </a>
 
   <h1>STAS(micropapillary, solid nests, single cells)</h1>
