@@ -112,15 +112,8 @@ Please contact the corresponding author or first author by email.
 
 - STAS_CPTAC: We obtained 1{,}139 paraffin sections from the CPTAC{https://www.cancerimagingarchive.net/collection/cptac-luad/} . In accordance with our inclusion and exclusion rules, 53 WSIs were labeled as STAS and 47 were labeled as non-STAS. These images were subsequently used to assess the generalizability of our model.
 
-## Website
 
-We welcome you to visit our STAS test platform at http://plr.20210706.xyz:5000/.
 
-```markdown
-Clear all before use
-1.Upload the pathology image of .svs file.
-2.Click Submit to get the prediction results.
-```
 ## License
 The code will be updated after the paper is accepted!!
 [License MIT](../LICENSE)
