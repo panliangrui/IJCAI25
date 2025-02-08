@@ -70,13 +70,15 @@ python new_cut7.py
 python new_cut7-1.py
 ```
 
-### Models
+## Models
 
 <div align="center">
   <a href="(https://github.com/panliangrui/IJCAI25/blob/main/flow.jpg)">
     <img src="https://github.com/panliangrui/IJCAI25/blob/main/flow.jpg" width="800" height="400" />
   </a>
-  
+<div>
+<strong>
+<samp> 
 
 ## Train Models
 ```markdown
