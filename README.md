@@ -49,7 +49,7 @@
 - [Train Models](#Train-models)
 - [Test Models](#Test-Models)
 - [Datastes](#Datastes)
-- [Website](#Website)
+- [Installation](#Installation)
 - [License](#license)
 
 </details>
@@ -60,8 +60,7 @@ Use the pre-trained model for feature preprocessing and build the spatial topolo
 
 ### Feature Extraction
 
-Features extracted based on KimiaNet and CTransPath.
-Please refer to KimiaNet: https://github.com/KimiaLabMayo/KimiaNet.
+Features extracted based on CTransPath.
 Please refer to CTransPath: https://github.com/Xiyue-Wang/TransPath
 ```markdown
 python new_cut7.py
@@ -112,6 +111,10 @@ Please contact the corresponding author or first author by email.
 
 - STAS_CPTAC: We obtained 1{,}139 paraffin sections from the CPTAC{https://www.cancerimagingarchive.net/collection/cptac-luad/} . In accordance with our inclusion and exclusion rules, 53 WSIs were labeled as STAS and 47 were labeled as non-STAS. These images were subsequently used to assess the generalizability of our model.
 
+##Installation
+- Linux (Tested on Ubuntu 18.04)
+- NVIDIA GPU (Tested on a single Nvidia GeForce RTX 4090)
+- Python (3.7.11), h5py (2.10.0), opencv-python (4.1.2.30), PyTorch (1.10.1), torchvision (0.11.2), pytorch-lightning (1.5.10).
 
 
 ## License
