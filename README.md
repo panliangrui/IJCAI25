@@ -70,12 +70,13 @@ python new_cut7.py
 python new_cut7-1.py
 ```
 
-### Graph Construction
+### Models
 
-Use KNN (K=9) to construct the spatial topology map.
-```markdown
-python construct_graph1.py
-```
+<div align="center">
+  <a href="(https://github.com/panliangrui/IJCAI25/blob/main/flow.jpg)">
+    <img src="https://github.com/panliangrui/IJCAI25/blob/main/flow.jpg" width="800" height="400" />
+  </a>
+  
 
 ## Train Models
 ```markdown
