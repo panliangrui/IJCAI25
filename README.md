@@ -108,9 +108,9 @@ Please contact the corresponding author or first author by email.
 
 - STAS_ZZU: From June 2023 to the present, the Affiliated Tumor Hospital of Zhengzhou University and Henan Cancer Hospital collected 100 paraffin sections from 20 STAS patients. According to the inclusion and exclusion criteria set by pathologists, 91 histopathological images were retained. All WSIs were annotated by pathologists to indicate STAS presence, dissemination focus type, and tumor type. Among these WSIs, 60 were STAS and 31 were non-STAS, forming a small-scale STAS dataset.
 
-- STAS_TCGA:} We downloaded relevant LUAD WSIs from the TCGA website (\url{https://portal.gdc.cancer.gov/}). Based on our inclusion and exclusion standards, we collected 506 paraffin sections from an unspecified number of patients. All WSIs underwent cross-verification by two experienced pathologists to determine STAS status, type of dissemination foci, and tumor type. Finally, following the inclusion and exclusion criteria, the STAS\_TCGA dataset consists of 117 STAS WSIs and 115 non-STAS WSIs, along with corresponding patient survival times and statuses.
+- STAS_TCGA:} We downloaded relevant LUAD WSIs from the TCGA website {https://portal.gdc.cancer.gov/}. Based on our inclusion and exclusion standards, we collected 506 paraffin sections from an unspecified number of patients. All WSIs underwent cross-verification by two experienced pathologists to determine STAS status, type of dissemination foci, and tumor type. Finally, following the inclusion and exclusion criteria, the STAS\_TCGA dataset consists of 117 STAS WSIs and 115 non-STAS WSIs, along with corresponding patient survival times and statuses.
 
-- STAS_CPTAC: We obtained 1{,}139 paraffin sections from the CPTAC\footnote{\url{https://www.cancerimagingarchive.net/collection/cptac-luad/}} . In accordance with our inclusion and exclusion rules, 53 WSIs were labeled as STAS and 47 were labeled as non-STAS. These images were subsequently used to assess the generalizability of our model.
+- STAS_CPTAC: We obtained 1{,}139 paraffin sections from the CPTAC{https://www.cancerimagingarchive.net/collection/cptac-luad/} . In accordance with our inclusion and exclusion rules, 53 WSIs were labeled as STAS and 47 were labeled as non-STAS. These images were subsequently used to assess the generalizability of our model.
 
 ## Website
 
