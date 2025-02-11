@@ -81,7 +81,9 @@ Overall workflow of the proposed SMILE approach. We process the given bag throug
 
 
 **Baseline MIL Methods**
+
 This repository provides implementations and comparisons of various MIL-based methods for Whole Slide Image (WSI) classification.
+
 - **Maxpooling**: Represents a slide by selecting the instance with the maximum activation, thereby mimicking the focus on the most prominent lesion.
 - **Meanpooling**: Aggregates all instance features by computing their mean, thus treating each patch equally in the overall representation.
 - **ABMIL**: Employs an attention mechanism to assign weights to instances, effectively prioritizing diagnostically relevant regions.
