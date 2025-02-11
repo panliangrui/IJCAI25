@@ -126,4 +126,5 @@ Please contact the corresponding author or first author by email.
 
 ## License
 If you need the original histopathology image slides, please send a request to our email address. The email address will be announced after the paper is accepted. Thank you!
+
 [License MIT](../LICENSE)
