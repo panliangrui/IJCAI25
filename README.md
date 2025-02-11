@@ -71,7 +71,7 @@ python extract_features_fp.py
 ```
 
 ## Models
-#SMILE
+**SMILE**
 
   <a href="(https://github.com/panliangrui/IJCAI25/blob/main/flow.jpg)">
     <img src="https://github.com/panliangrui/IJCAI25/blob/main/flow.jpg" width="800" height="400" />
@@ -80,18 +80,18 @@ Overall workflow of the proposed SMILE approach. We process the given bag throug
 
 This repository provides implementations and comparisons of various MIL-based methods for Whole Slide Image (WSI) classification.
 
-#Baseline MIL Methods
+**Baseline MIL Methods**
 
 - **Maxpooling**: Represents a slide by selecting the instance with the maximum activation, thereby mimicking the focus on the most prominent lesion.
 - **Meanpooling**: Aggregates all instance features by computing their mean, thus treating each patch equally in the overall representation.
-- **ABMIL** ([Ilse et al., 2018](https://doi.org/10.48550/arXiv.1802.04712)): Employs an attention mechanism to assign weights to instances, effectively prioritizing diagnostically relevant regions.
-- **TransMIL** ([Shao et al., 2021](https://doi.org/10.48550/arXiv.2106.00908)): A transformer-based MIL framework that leverages both morphological and spatial correlations among instances to enhance visualization, interpretability, and performance in WSI pathology classification.
-- **CLAM-SB** ([Lu et al., 2021](https://doi.org/10.48550/arXiv.2008.01977)): A clustering constraint-based attention MIL method that employs a single attention branch to aggregate instance features and generate a bag-level representation.
-- **CLAM-MB** ([Lu et al., 2021](https://doi.org/10.48550/arXiv.2008.01977)): The multi-branch version of the CLAM model, computing attention scores for each class separately to produce multiple unique bag-level representations.
-- **DTFD-MIL** ([Zhang et al., 2022](https://doi.org/10.48550/arXiv.2207.02302)): Addresses the challenge of limited WSI samples in MIL by introducing pseudo-bags to virtually enlarge the bag count and implementing a double-tier framework that leverages an attention-based derivation of instance probabilities to effectively utilize intrinsic features.
-- **ACMIL** ([Zhang et al., 2024](https://doi.org/10.48550/arXiv.2402.03219)): Mitigates overfitting by employing multiple branch attention and stochastic top-K instance masking to reduce attention value concentration and capture more discriminative instances in WSI classification.
-- **ILRA** ([Xiang et al., 2023](https://doi.org/10.48550/arXiv.2303.06789)): Incorporates a pathology-specific Low-Rank Constraint for feature embedding and an iterative low-rank attention model for feature aggregation, achieving enhanced performance in gigapixel-sized WSI classification.
-- **DGRMIL** ([Zhu et al., 2024](https://doi.org/10.48550/arXiv.2401.05924)): Models instance diversity by converting instance embeddings into similarities with predefined global vectors via a cross-attention mechanism and further enhances the diversity among these global vectors through positive instance alignment and a determinant point process-based diversified learning paradigm.
+- **ABMIL**: Employs an attention mechanism to assign weights to instances, effectively prioritizing diagnostically relevant regions.
+- **TransMIL**: A transformer-based MIL framework that leverages both morphological and spatial correlations among instances to enhance visualization, interpretability, and performance in WSI pathology classification.
+- **CLAM-SB**: A clustering constraint-based attention MIL method that employs a single attention branch to aggregate instance features and generate a bag-level representation.
+- **CLAM-MB**: The multi-branch version of the CLAM model, computing attention scores for each class separately to produce multiple unique bag-level representations.
+- **DTFD-MIL**: Addresses the challenge of limited WSI samples in MIL by introducing pseudo-bags to virtually enlarge the bag count and implementing a double-tier framework that leverages an attention-based derivation of instance probabilities to effectively utilize intrinsic features.
+- **ACMIL**: Mitigates overfitting by employing multiple branch attention and stochastic top-K instance masking to reduce attention value concentration and capture more discriminative instances in WSI classification.
+- **ILRA**: Incorporates a pathology-specific Low-Rank Constraint for feature embedding and an iterative low-rank attention model for feature aggregation, achieving enhanced performance in gigapixel-sized WSI classification.
+- **DGRMIL**: Models instance diversity by converting instance embeddings into similarities with predefined global vectors via a cross-attention mechanism and further enhances the diversity among these global vectors through positive instance alignment and a determinant point process-based diversified learning paradigm.
 
 ## References
 
