@@ -82,22 +82,9 @@ Overall workflow of the proposed SMILE approach. We process the given bag throug
 
 ## Train Models
 ```markdown
-train_feature1.py
+python manage.py
 ```
-## Test Models
 
-- Best model for five-fold cross validation
-  ```markdown
-  link：https://pan.baidu.com/s/11dxmND9ZhEA-o-Hnql6_rg?pwd=l6gh 
-  ```
-- Best model finally tested
-  ```markdown
-  link：https://pan.baidu.com/s/1lT8x_ovemj3FXvfjTRjxmA?pwd=516i  
-  ```
-- Test the model to obtain predictions.
-  ```markdown
-  python test_stas.py
-  ```
 
 ## Datastes
 
