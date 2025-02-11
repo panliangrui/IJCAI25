@@ -8,7 +8,7 @@
   <h1>STAS(solid nests, micropapillary clusters, single cells)</h1>
 
   <p>
-  Liangrui Pan et al. is a developer helper.
+  Anonymous Author et al. is a developer helper.
   </p>
 
   <p>
