@@ -78,10 +78,10 @@ python extract_features_fp.py
   </a>
 Overall workflow of the proposed SMILE approach. We process the given bag through a joint feature representation module to transform them into instance features. These features are then processed through a scale-adaptive attention module to obtain scaled bag-level feature representations. Finally, the final STAS prediction results are obtained through the classifier g.
 
-This repository provides implementations and comparisons of various MIL-based methods for Whole Slide Image (WSI) classification.
+
 
 **Baseline MIL Methods**
-
+This repository provides implementations and comparisons of various MIL-based methods for Whole Slide Image (WSI) classification.
 - **Maxpooling**: Represents a slide by selecting the instance with the maximum activation, thereby mimicking the focus on the most prominent lesion.
 - **Meanpooling**: Aggregates all instance features by computing their mean, thus treating each patch equally in the overall representation.
 - **ABMIL**: Employs an attention mechanism to assign weights to instances, effectively prioritizing diagnostically relevant regions.
