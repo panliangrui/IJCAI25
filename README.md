@@ -35,7 +35,7 @@
   </div>
 </div>
 
-# Feature-interactive Siamese graph encoder for predicting STAS in lung cancer histopathology images
+# SMILE: a Scale-aware Multiple Instance Learning Method for Multicenter STAS  Lung Lancer Histopathology Diagnosis
 
 ## Table of Contents
 
@@ -75,6 +75,8 @@ python new_cut7-1.py
   <a href="(https://github.com/panliangrui/IJCAI25/blob/main/flow.jpg)">
     <img src="https://github.com/panliangrui/IJCAI25/blob/main/flow.jpg" width="800" height="400" />
   </a>
+Overall workflow of the proposed SMILE approach. We process the given bag through a joint feature representation module to transform them into instance features. These features are then processed through a scale-adaptive attention module to obtain scaled bag-level feature representations. Finally, the final STAS prediction results are obtained through the classifier $g$.
+
 
 ## Train Models
 ```markdown
