@@ -62,11 +62,12 @@ Use the pre-trained model for feature preprocessing and build the spatial topolo
 
 Features extracted based on CTransPath.
 Please refer to CTransPath: https://github.com/Xiyue-Wang/TransPath
+Feature extraction code reference project: https://github.com/mahmoodlab/CLAM
 ```markdown
-python new_cut7.py
+python create_patches_fp.py
 ```
 ```markdown
-python new_cut7-1.py
+python extract_features_fp.py
 ```
 
 ## Models
