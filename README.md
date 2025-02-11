@@ -45,6 +45,7 @@
 - [Table of Contents](#table-of-contents)
 - [Feature Preprocessing](#Feature-Preprocessing)
 - [Feature Extraction](#Feature-Extraction)
+- [Models](#Train-models)
 - [Train Models](#Train-models)
 - [Datastes](#Datastes)
 - [Installation](#Installation)
