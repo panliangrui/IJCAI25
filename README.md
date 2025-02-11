@@ -93,8 +93,6 @@ This repository provides implementations and comparisons of various MIL-based me
 - **ILRA**: Incorporates a pathology-specific Low-Rank Constraint for feature embedding and an iterative low-rank attention model for feature aggregation, achieving enhanced performance in gigapixel-sized WSI classification.
 - **DGRMIL**: Models instance diversity by converting instance embeddings into similarities with predefined global vectors via a cross-attention mechanism and further enhances the diversity among these global vectors through positive instance alignment and a determinant point process-based diversified learning paradigm.
 
-## References
-
 ## Train Models
 ```markdown
 python manage.py
